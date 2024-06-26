@@ -119,8 +119,8 @@ table{
     display: none; /* 初始隱藏 */
     position: absolute;
     bottom: 60px; /* 顯示在選單按鈕上方 */
-    width: 220px;
-    left: 30px;
+    width: 250px;
+    left: 15px;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
