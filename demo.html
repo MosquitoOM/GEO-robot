@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能客服機器人</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chatbot">
+        <div id="chat-icon" onclick="toggleChat()">
+            <img src="chatbot-icon.png" alt="Chatbot" id="icon-img">
+        </div>
+        <div id="chat-box" class="hidden">
+            <div id="chat-header">
+                <span>智能客服</span>
+            </div>
+            <div id="chat-content">
+                <div class="message bot">您好，有什麼我可以幫助您的嗎？</div>
+                <!-- 更多對話可以在這裡添加 -->
+            </div>
+            <div id="chat-input-area">
+                <button id="menu-button" onclick="toggleMenu()">☰</button>
+                <input type="text" id="chat-input" placeholder="輸入您的訊息...">
+                <button id="send-button">傳送</button>
+            </div>
+
+            <!-- <div id="menu-box" class="hidden">
+                <div class="menu-item">選項1</div>
+                <div class="menu-item">選項2</div>
+                <div class="menu-item">選項3</div>
+                <div class="menu-item">選項4</div>
+                <div class="menu-item">選項5</div>
+                <div class="menu-item">選項6</div>
+            </div> -->
+
+            <div id="menu-box" class="hidden">
+                <table border=1>
+                <tr>
+                  <td><div class="menu-item">選項1</div></td>
+                  <td><div class="menu-item">選項2</div></td>
+                  <td><div class="menu-item">選項3</div></td>
+                </tr>
+                <tr>
+                  <td><div class="menu-item">選項4</div></td>
+                  <td><div class="menu-item">選項5</div></td>
+                  <td><div class="menu-item">選項6</div></td>
+                </tr>
+              </table>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
